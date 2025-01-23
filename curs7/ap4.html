@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <script>
+        let myArr = [10, 15, 20, 25, 75];
+        console.log(myArr);
+        // sa le afisam
+        // modificam pretul cu 15%
+        myArr.forEach(function(val) {
+            document.write(`<span>${val}, </span>`)
+        });
+       let updateArr = myArr.map((pret) => pret * 1,15)
+    </script>
+    
+</body>
+</html>
